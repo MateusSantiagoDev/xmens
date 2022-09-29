@@ -23,7 +23,7 @@
 .modalStyle {
   display: flex;
   justify-content: space-evenly;
-  width: 30rem;
+  width: 25rem;
   position: fixed;
   z-index: 99999;
   height: auto;
@@ -37,7 +37,7 @@
   background-color: #ffffff35;
   backdrop-filter: blur(15px);
   left: 33%;
-  top: 10%;
+  top: 7.5%;
 }
 
 @media (max-width: 1220px) {

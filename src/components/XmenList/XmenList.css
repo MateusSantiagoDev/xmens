@@ -17,7 +17,7 @@
 }
 
 .div_geral-modal {
-  height: 650px;
+  height: 550px;
 }
 
 .modalStyle {
@@ -37,7 +37,7 @@
   background-color: #ffffff35;
   backdrop-filter: blur(15px);
   left: 33%;
-  top: 2%;
+  top: 10%;
 }
 
 @media (max-width: 1220px) {
@@ -67,7 +67,7 @@
 .section__modal {
   display: flex;
   justify-content: space-evenly;
-  height: 600px;
+  height: 450px;
 }
 
 .div__itens--modal {
@@ -76,8 +76,7 @@
   justify-content: space-between;
 }
 
-.div__button--modal {
-  margin-top: 0;
+.div__button--modal { 
   margin-left: 29rem;
   align-items: flex-end;
   align-items: flex-end;
@@ -121,14 +120,14 @@
   border-radius: 5px;
   margin-left: 1.5rem;
   width: 90%;
-  height: 40%;
+  height: 50%;
 }
 
 .div_update-delete {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 5rem;
+  margin-top: 2.5rem;
 }
 
 .button_update {

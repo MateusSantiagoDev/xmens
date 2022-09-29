@@ -1,7 +1,7 @@
 .xmenList {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 40px 40px;
+  grid-gap: 30px 30px;
 }
 
 @media (max-width: 1220px) {

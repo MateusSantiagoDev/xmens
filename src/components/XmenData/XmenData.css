@@ -1,0 +1,79 @@
+.xmenListData {
+  font-family: "Exo";
+  background-color: #ffffff35;
+  box-shadow: 5px 5px 5px 5px rgb(116, 114, 114);
+  border-radius: 10px;
+  padding: 10px;
+  width: 315px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 400px) {
+  .xmenListData {
+    width: 210px;
+    height: 180px;
+  }
+}
+
+.xmenListData > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xmenListData__name {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 100%;
+  padding: 0.4rem;
+  color: dimgray;
+  cursor: context-menu;
+}
+
+.xmenListaData__button {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.button__ver--mais {
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.3rem 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: dimgray;
+}
+
+.button__ver--mais:hover {
+  transform: scale(1.1);
+  transition: all 2s;
+  cursor: pointer;
+  color: black;
+}
+
+.xmenListData__image {
+  height: 150px;
+  width: 45vh;
+  border-radius: 5px;
+}
+
+.xmenListaData__modal {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 80%;
+}
+
+.xmenListData__ability {
+  font-size: 1rem;
+  color: brown;
+  padding: 0.3rem;
+  color: #fff;
+  text-align: start;
+  margin-left: 30rem;
+}

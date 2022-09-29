@@ -1,0 +1,21 @@
+.form {
+  padding: 0.5rem;
+  font-weight: 700;
+  font-family: "eixo";
+}
+
+.submit {
+  margin-top: 0.3rem;
+  margin-left: 45%;
+  font-family: "eixo";
+  font-weight: 700;
+  cursor: pointer;
+  color: black;
+  background-color: #ffffff35;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.submit:hover {
+  color: #ccc;
+}

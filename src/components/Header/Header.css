@@ -1,0 +1,59 @@
+.Header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 20rem;
+  background-image: url("https://pm1.narvii.com/6634/16dcba600550dcfa3c6b1c2c41760abe359573cf_hq.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: black;
+  width: 18%;
+  height: 50px;
+}
+
+@media (max-width: 1200px) {
+  .Header__logo {
+    width: 20%;
+  }
+  .logo {
+    width: 10%;
+  }
+}
+
+.Logo__titulo {
+  margin-left: 4rem;
+  font-family: "Exo";
+  font-weight: 700;
+  font-size: 2.5em;
+  color: brown;
+}
+
+@media (max-width: 300px) {
+  .Header {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 1005px) {
+  .logo {
+    display: none;
+  }
+
+  .Logo__titulo {
+    display: none;
+  }
+
+  .Header__logo {
+    display: none;
+  }
+}

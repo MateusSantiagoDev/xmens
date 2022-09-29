@@ -80,7 +80,7 @@ function XMens({ createNewXmen }) {
     customStyle = {
       content: {
         width: "30rem",
-        height: "650px",
+        height: "550px",
       },
       overlay: {
         background: "rgba(0, 0, 0, 0.4)",
@@ -148,7 +148,7 @@ function XMens({ createNewXmen }) {
                       customStyle = {
                         content: {
                           width: "30rem",
-                          height: "650px",
+                          height: "550px",
                         },
                         overlay: {
                           background: "rgba(0, 0, 0, 0.4)",

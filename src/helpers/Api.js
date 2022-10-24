@@ -1,4 +1,4 @@
-const baseUrl = "https://xmenapi.herokuapp.com/characters";
+const baseUrl = "https://api-xmen-production.up.railway.app/characters";
 
 export const api = {
   createNewXmen: async (xmen) => {
